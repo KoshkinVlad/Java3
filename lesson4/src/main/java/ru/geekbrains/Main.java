@@ -17,6 +17,7 @@ public class Main {
 
     }
 
+
     public void printA() {
         synchronized (monitor) {
             for (int i = 0; i < TIMES_TO_PRINT; i++) {
